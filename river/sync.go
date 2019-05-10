@@ -374,7 +374,7 @@ func (r *River) getFieldParts(k string, v string) (string, string, string) {
 
 func (r *River) makeInsertReqData(req *elastic.BulkRequest, rule *Rule, values []interface{}) {
 	req.Data = make(map[string]interface{}, len(values))
-	req.Action = elastic.ActionIndex
+	req.Action = elastic.ActionUpdate
 
 	for i, c := range rule.TableInfo.Columns {
 		if !rule.CheckFilter(c.Name) {
