@@ -8,6 +8,8 @@ It uses `mysqldump` to fetch the origin data at first, then syncs data increment
 
 1. 使用最新版本的 https://github.com/siddontang/go-mysql，支持 MySQL 8.0
 2. 所有的 insert/update 在 ES 中都通过 upsert 实现，从而支持把 MySQL 中多张表根据某个字段合并到 ES 中的同一个 type 中
+3. 改动比较暴力，建议评估后使用
+
 
 ## Install
 
