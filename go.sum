@@ -18,5 +18,5 @@ github.com/siddontang/go-mysql v0.0.0-20190123011128-88e9cd7f6643 h1:yzg8+Cip1iD
 github.com/siddontang/go-mysql v0.0.0-20190123011128-88e9cd7f6643/go.mod h1:/b8ZcWjAShCcHp2dWpjb1vTlNyiG03UeHEQr2jteOpI=
 github.com/siddontang/go-mysql v0.0.0-20190303113352-670f74e8daf5 h1:5Nr7spTeY+ziXzqk/9p+GLnvH4rIjp9BX+aRaYDbR44=
 github.com/siddontang/go-mysql v0.0.0-20190303113352-670f74e8daf5/go.mod h1:/b8ZcWjAShCcHp2dWpjb1vTlNyiG03UeHEQr2jteOpI=
-github.com/siddontang/go-mysql v0.0.0-20190506193526-b3fc2b70c8a h1:x1Y6r1IWtwKOJUrm2Yflfq5ew8wZYMBLnMoHDYVP8eI=
-github.com/siddontang/go-mysql v0.0.0-20190506193526-b3fc2b70c8a/go.mod h1:/b8ZcWjAShCcHp2dWpjb1vTlNyiG03UeHEQr2jteOpI=
+github.com/siddontang/go-mysql v0.0.0-20190507023526-b3fc2b70c8a8 h1:QHsQNzY17fQM+OxClg53z0FnCJvQrwx+1pcV+A6Ji/s=
+github.com/siddontang/go-mysql v0.0.0-20190507023526-b3fc2b70c8a8/go.mod h1:/b8ZcWjAShCcHp2dWpjb1vTlNyiG03UeHEQr2jteOpI=
