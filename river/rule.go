@@ -58,9 +58,9 @@ func (r *Rule) prepare() error {
 		r.Index = r.Table
 	}
 
-	if len(r.Type) == 0 {
-		r.Type = r.Index
-	}
+	//if len(r.Type) == 0 {
+	//	r.Type = r.Index
+	//}
 
 	// ES must use a lower-case Type
 	// Here we also use for Index

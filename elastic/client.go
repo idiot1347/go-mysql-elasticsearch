@@ -80,15 +80,13 @@ const (
 
 // BulkRequest is used to send multi request in batch.
 type BulkRequest struct {
-	Action          string
-	Index           string
-	Type            string
-	ID              string
-	Parent          string
-	Pipeline        string
-	RetryOnConflict int
-
-	Data map[string]interface{}
+	Action   string
+	Index    string
+	Type     string
+	ID       string
+	Parent   string
+	Pipeline string
+	Data     map[string]interface{}
 }
 
 func (r *BulkRequest) bulk(buf *bytes.Buffer) error {
@@ -109,9 +107,6 @@ func (r *BulkRequest) bulk(buf *bytes.Buffer) error {
 	}
 	if len(r.Pipeline) > 0 {
 		metaData["pipeline"] = r.Pipeline
-	}
-	if r.RetryOnConflict > 0 {
-		metaData["_retry_on_conflict"] = r.RetryOnConflict
 	}
 
 	meta[r.Action] = metaData
